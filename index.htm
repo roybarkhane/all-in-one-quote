@@ -13,7 +13,10 @@
 <body>
     <div class="form">
         <form action="" id="data">
-            <h2>Giant All in One Layer Waterproofing <br> Quotation Generation</h2>
+            <img src="logo.svg" alt="logo" width="auto" height="200">
+            <center><h3>Giant All in One Layer Waterproofing</h3></center> <h3><center>Quotation Generation</center></h3>
+
+            
             <label for="browser"> Abbreviation:</label>
             <input list="abbreviation" id="browser" name="abbreviation" required>
             <datalist id="abbreviation">
@@ -29,25 +32,29 @@
             <input type="number" id="feet" required>
 
             <label for="rate3">3 layer Rate:</label>
-            <input type="number" name="" id="rate3" required>
-            
-            
+            <input type="number" name="" id="rate3" oninput="r3e()" required>
+            <div id="rate3msg" class="msg"></div>
+
+
             <label for="rate4">4 layer Rate:</label>
-            <input type="number" name="" id="rate4" required>
-            
+            <input type="number" name="" id="rate4" oninput="r4e()" required>
+            <div id="rate4msg" class="msg"></div>
+
             <label for="rate5">5 layer Rate:</label>
-            <input type="number" name="" id="rate5" required>
-            
-            
+            <input type="number" name="" id="rate5" oninput="r5e()" required>
+            <div id="rate5msg" class="msg"></div>
+
             <label for="rate8">8 layer Rate:</label>
-            <input type="number" name="" id="rate8" required>
-            
+            <input type="number" name="" id="rate8" oninput="r8e()" required>
+            <div id="rate8msg" class="msg"></div>
+
             <button type="submit">Generate</button>
         </form>
     </div>
     <section class="btn">
-        
+
     </section>
+    
     <main>
     </main>
     <script src="./script.js"></script>

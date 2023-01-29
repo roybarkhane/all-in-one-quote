@@ -1,8 +1,6 @@
 
 
 
-
-
 *{  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding:0;
@@ -133,6 +131,7 @@ div.form button{
 div.form input{
     display: block;
     height: 40px;
+    padding-left: 10px;
 }
 div.form h2{
     text-align: center;
@@ -146,6 +145,30 @@ div.form h2{
 .btn button{
   padding: 5px 15px;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid blueviolet;
+}
+#tb th{
+    font-size: 30px;
+}
+#tb tr:nth-child(even){
+ background-color: aqua;
+
+}
+.msg{
+ font-size: 1rem;
+ padding: 5px 10px;
+}
+.success{
+    outline: 1px solid green ;
+}
+.fail{
+    color:red;
+}
+
 
 @media only screen and (max-width:600px){
     *{
